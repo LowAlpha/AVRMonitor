@@ -1,5 +1,5 @@
 ## AVRMonitor
-AVRMonitor is a monitor application to access memory and IO space for AVR ATMEGA Microcontroller from a series of commands over a serial port. It was developed by Michael J Bauer http://www.mjbauer.biz/ . 
+AVRMonitor is a monitor application to access memory and IO space for AVR ATMEGA Microcontroller from a series of commands over a serial port. It was developed by Michael J Bauer. A very good AVR C tutorial and series of AVR resources are available from Michael at http://www.mjbauer.biz/mjb_resources.htm. 
 
 This version is for the ATMEGA328P as used on the Arduino UNO board. 
 The changes relate to setting up the serial port and IO usage for the Arduino. The device is programmed through the Arduino inbuild bootloader use AVRDude on the host PC. The monitor command interface is through the AVR serial port. This is accessed through the Arduino USB interface as a virtual serial port on the host machine. 
